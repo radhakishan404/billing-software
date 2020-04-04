@@ -1,0 +1,1636 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Vpran  | Sales</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <meta name="_token" content="bVmli3zR4KOlzyjOyxn8GJ6kvLZadpTKtXGOa1RM"/>
+  <!-- Bootstrap 3.3.6 -->
+  <link rel="stylesheet" href="https://www.vpran.in/gstbilling/gstbilling/public/bootstrap/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://www.vpran.in/gstbilling/gstbilling/public/bootstrap/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://www.vpran.in/gstbilling/gstbilling/public/bootstrap/css/ionicons.min.css">
+  <!-- DataTables -->
+  <link rel="stylesheet" href="https://www.vpran.in/gstbilling/gstbilling/public/plugins/datatables/dataTables.bootstrap.css">
+  
+  <!-- Select2 -->
+  <link rel="stylesheet" href="https://www.vpran.in/gstbilling/gstbilling/public/plugins/select2/select2.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="https://www.vpran.in/gstbilling/gstbilling/public/dist/css/AdminLTE.min.css">
+
+  <link rel="stylesheet" href="https://www.vpran.in/gstbilling/gstbilling/public/dist/css/skins/_all-skins.min.css">
+  <!-- Date Picker -->
+  <link rel="stylesheet" href="https://www.vpran.in/gstbilling/gstbilling/public/plugins/datepicker/datepicker3.css">
+  <link rel="stylesheet" href="https://www.vpran.in/gstbilling/gstbilling/public/dist/css/jquery-ui.min.css" type="text/css" /> 
+  <link rel="stylesheet" href="https://www.vpran.in/gstbilling/gstbilling/public/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" type="text/css" />
+  <link rel="stylesheet" href="https://www.vpran.in/gstbilling/gstbilling/public/dist/css/custom.css">
+  <link rel="stylesheet" href="https://www.vpran.in/gstbilling/gstbilling/public/dist/css/bootstrap-confirm-delete.css">
+
+  <script type="text/javascript">
+    var SITE_URL = "https://www.vpran.in/gstbilling/gstbilling/index.php";
+  </script>
+  <link rel='shortcut icon' href="https://www.vpran.in/gstbilling/gstbilling/index.php/favicon.ico" type='image/x-icon'/ >
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="wrapper">
+
+  <header class="main-header">
+    <!-- Logo -->
+    <a href="https://www.vpran.in/gstbilling/gstbilling/index.php/dashboard" class="logo">
+      <!-- mini logo for sidebar mini 50x50 pixels -->
+      <span class="logo-mini"><b>Vpran GstBilling</b></span>
+      <!-- logo for regular state and mobile devices -->
+      <span class="logo-lg">Vpran </span>
+    </a>
+    <!-- Header Navbar: style can be found in header.less -->
+    <nav class="navbar navbar-static-top header_controls">
+      <!-- Sidebar toggle button-->
+      <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+        <span class="sr-only">Toggle navigation</span>
+      </a>
+
+      
+      <div class="navbar-custom-menu">
+        <ul class="nav navbar-nav">
+
+
+          <li class="dropdown notifications-menu">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <span><img class="flags"  src='https://www.vpran.in/gstbilling/gstbilling/index.php/public/img/flags/en.png' ></span>
+            </a>
+            <ul class="dropdown-menu task-bar">
+              <li class="header">Select Language</li>
+              <li>
+                <!-- inner menu: contains the actual data -->
+                <ul class="menua">
+                  <li>
+                    <a href="#" class="lang" id='ar' >
+                      <img src="https://www.vpran.in/gstbilling/gstbilling/index.php/public/img/flags/ar.png" class="img"> Arabic
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="lang" id='ch' >
+                      <img src="https://www.vpran.in/gstbilling/gstbilling/index.php/public/img/flags/ch.png" class="img"> Chinese
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="lang" id='en' >
+                      <img src="https://www.vpran.in/gstbilling/gstbilling/index.php/public/img/flags/en.png" class="img"> English
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="lang" id='fr' >
+                      <img src="https://www.vpran.in/gstbilling/gstbilling/index.php/public/img/flags/fr.png" class="img"> French
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="lang" id='po' >
+                      <img src="https://www.vpran.in/gstbilling/gstbilling/index.php/public/img/flags/po.png" class="img"> Portuguese
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="lang" id='rs' >
+                      <img src="https://www.vpran.in/gstbilling/gstbilling/index.php/public/img/flags/rs.png" class="img"> Russian
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="lang" id='sp' >
+                      <img src="https://www.vpran.in/gstbilling/gstbilling/index.php/public/img/flags/sp.png" class="img"> Spanish
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="lang" id='tu' >
+                      <img src="https://www.vpran.in/gstbilling/gstbilling/index.php/public/img/flags/tu.png" class="img"> Turkish
+                    </a>
+                  </li>
+                  
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+
+          <!-- User Account: style can be found in dropdown.less -->
+          <li class="dropdown user user-menu">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                          <img src='https://www.vpran.in/gstbilling/gstbilling/index.php/public/uploads/userPic/IMG_20160517_114850_1463722765245.jpg' class="user-image" alt="User Image">
+             
+              <span class="hidden-xs">Parth Patel</span>
+            </a>
+            <ul class="dropdown-menu">
+              <!-- User image -->
+              <li class="user-header">
+                              <img src='https://www.vpran.in/gstbilling/gstbilling/index.php/public/uploads/userPic/IMG_20160517_114850_1463722765245.jpg' class="img-circle" alt="User Image">
+             
+                <p>
+                  
+                  <!-- <small>Member since Nov. 2012</small> -->
+                </p>
+              </li>
+              <!-- Menu Body -->
+              
+              <!-- Menu Footer-->
+              <li class="user-footer">
+                <div class="pull-left">
+                                    <a href="https://www.vpran.in/gstbilling/gstbilling/index.php/profile" class="btn btn-default btn-flat" id="profile">Profile</a>
+                </div>
+                <div class="pull-right">
+                  <a href="https://www.vpran.in/gstbilling/gstbilling/index.php/logout" class="btn btn-default btn-flat">Sign Out</a>
+                </div>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- Left side column. contains the logo and sidebar -->
+
+  <!-- Left side column. contains the sidebar -->
+<aside class="main-sidebar">
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar">
+      
+      <ul class="sidebar-menu">
+        
+        <li  >
+          <a href="https://www.vpran.in/gstbilling/gstbilling/index.php/dashboard">
+            <i class="fa fa-dashboard"></i> <span>Dashboard </span>
+          </a>
+        </li>
+
+                <li treeview >
+          <a href="#">
+            <i class="fa fa-list-ul"></i>
+            <span>Relationships</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+
+                         <li  >
+            <a href="https://www.vpran.in/gstbilling/gstbilling/index.php/customer/list">
+            <i class="fa fa-users"></i> <span>Customers</span>
+            </a>
+            </li>
+            
+                         <li  >
+          <a href="https://www.vpran.in/gstbilling/gstbilling/index.php/supplier">
+            <i class="fa fa-users"></i> <span>Suppliers</span>
+          </a>
+            </li>  
+            
+          </ul>
+        </li>
+        
+
+                <li  >
+          <a href="https://www.vpran.in/gstbilling/gstbilling/index.php/item">
+            <i class="fa fa-cubes"></i>
+            <span>Items</span>
+          </a>
+        </li>
+        
+                <li  class="treeview active" >
+          <a href="#">
+            <i class="fa fa-list-ul"></i>
+            <span>Sales</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+                         <li  >
+              <a href="https://www.vpran.in/gstbilling/gstbilling/index.php/order/list">
+                <span>Quotations</span>
+              </a>
+            </li>
+                                   <li  class="active" >
+              <a href="https://www.vpran.in/gstbilling/gstbilling/index.php/sales/list">
+                <span>Invoices</span>
+              </a>
+            </li>  
+                                     <li  >
+              <a href="https://www.vpran.in/gstbilling/gstbilling/index.php/payment/list">
+                <span>Payments</span>
+              </a>
+            </li> 
+                      </ul>
+        </li>
+                       <li  >
+          <a href="https://www.vpran.in/gstbilling/gstbilling/index.php/gst-return/filtering">
+            <i class="fa fa-money"></i> <span>GST Return</span>
+          </a>
+        </li> 
+         
+
+
+               <li  >
+          <a href="https://www.vpran.in/gstbilling/gstbilling/index.php/purchase/list">
+            <i class="fa fa-shopping-cart"></i> <span>Purchases</span>
+          </a>
+        </li>  
+        
+                <li treeview >
+          <a href="#">
+            <i class="fa fa-money"></i>
+            <span>Banking &amp; Transctions</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+                       <li  >
+              <a href="https://www.vpran.in/gstbilling/gstbilling/index.php/bank/list">
+                <span>Bank Accounts</span>
+              </a>
+            </li>
+            
+                        <li  >
+              <a href="https://www.vpran.in/gstbilling/gstbilling/index.php/deposit/list">
+                <span>Bank Account Deposits</span>
+              </a>
+            </li> 
+            
+                         <li  >
+              <a href="https://www.vpran.in/gstbilling/gstbilling/index.php/transfer/list">
+                <span>Bank Account Transfers</span>
+              </a>
+            </li>
+            
+                         <li  >
+              <a href="https://www.vpran.in/gstbilling/gstbilling/index.php/transaction/list">
+                <span>Transactions</span>
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+               
+                <li  >
+              <a href="https://www.vpran.in/gstbilling/gstbilling/index.php/expense/list">
+              <i class="fa fa-heartbeat menu-icon"></i>
+                <span>Expenses</span>
+              </a>
+        </li>
+        
+                <li treeview >
+          <a href="#">
+            <i class="fa fa-bar-chart"></i>
+            <span>Reports</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+
+                        <li  >
+              <a href="https://www.vpran.in/gstbilling/gstbilling/index.php/report/inventory-stock-on-hand">
+                
+                <span>Inventory Stock on Hand</span>
+              </a>
+            </li>
+            
+                        <li  >
+              <a href="https://www.vpran.in/gstbilling/gstbilling/index.php/report/sales-report">
+                
+                <span>Sales Reports</span>
+              </a>
+            </li>
+            
+                        <li  >
+              <a href="https://www.vpran.in/gstbilling/gstbilling/index.php/report/sales-history-report">
+                
+                <span>Sales History Reports</span>
+              </a>
+            </li>
+            
+                        <li  >
+              <a href="https://www.vpran.in/gstbilling/gstbilling/index.php/report/purchase-report">
+                <span>Purchase Reports</span>
+              </a>
+            </li>
+            
+                         <li  >
+              <a href="https://www.vpran.in/gstbilling/gstbilling/index.php/report/member-report">
+                <span>Team Member Reports</span>
+              </a>
+            </li>
+            
+                        <li  >
+              <a href="https://www.vpran.in/gstbilling/gstbilling/index.php/transaction/expense-report">
+                <span>Expense Report</span>
+              </a>
+            </li>
+            
+                         <li  >
+              <a href="https://www.vpran.in/gstbilling/gstbilling/index.php/transaction/income-report">
+                <span>Income Report</span>
+              </a>
+            </li>
+                       
+
+                        <li  >
+              <a href="https://www.vpran.in/gstbilling/gstbilling/index.php/transaction/income-vs-expense">
+                <span>Income VS Expense</span>
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+        
+                <li treeview >
+          <a href="#">
+            <i class="fa fa-gears"></i>
+            <span>Settings</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            
+            
+            <li  >
+              <a href="https://www.vpran.in/gstbilling/gstbilling/index.php/company/setting">
+                <span>Company Details</span>
+              </a>
+            </li>
+           
+
+                        <li  >
+              <a href="https://www.vpran.in/gstbilling/gstbilling/index.php/item-category">
+                <span>General Settings</span>
+              </a>
+            </li>
+                        
+                        <li  >
+              <a href="https://www.vpran.in/gstbilling/gstbilling/index.php/tax">
+                <span>Finance</span>
+              </a>
+            </li>
+            
+           
+            <li  >
+              <!--<a href="https://www.vpran.in/gstbilling/gstbilling/index.php/customer-invoice-temp/5">
+                <span>Email Templates</span>
+              </a>-->
+            </li>
+           
+
+                        <li  >
+              <a href="https://www.vpran.in/gstbilling/gstbilling/index.php/setting-preference">
+                <span>Preference</span>
+              </a>
+            </li>
+            
+                        <li  >
+             <!-- <a href="https://www.vpran.in/gstbilling/gstbilling/index.php/barcode/create">
+                <span>Print Barcode/Label</span>
+              </a>-->
+            </li>
+                        
+
+          </ul>
+        </li>
+              </ul>
+    </section>
+    <!-- /.sidebar -->
+</aside>
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <div id="notifications" class="row no-print">
+    <div class="col-md-12">
+                
+            </div>
+</div>
+
+    
+       
+        <!-- Main content -->
+    <section class="content">
+      <!-- Default box -->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="box box-default">
+        <!-- /.box-header -->
+        <div class="box-body">
+        <form action="https://www.vpran.in/gstbilling/gstbilling/index.php/sales/save" method="POST" id="salesForm">  
+        <input type="hidden" value="bVmli3zR4KOlzyjOyxn8GJ6kvLZadpTKtXGOa1RM" name="_token" id="token">
+        <div class="row">
+            <div class="col-md-3">
+              <div class="form-group">
+                <label for="exampleInputEmail1">Customer<span class="text-danger"> *</span></label>
+                <select class="form-control select2" name="debtor_no" id="customer">
+                <option value="">Select One</option>
+                                  <option value="1">Aditya Roy</option>
+                                  <option value="2">John Smith</option>
+                                  <option value="3">Kyla Olsen</option>
+                                  <option value="6">vishal sharma</option>
+                                  <option value="7">samir khan</option>
+                                  <option value="8">Shiv Aluminium</option>
+                                </select>
+              </div>
+            </div>
+
+            <!--
+            <div class="col-md-3">
+              <div class="form-group">
+                <label for="exampleInputEmail1">Customer Branch</label>
+                <select class="form-control select2" name="branch_id" id="branch">
+                </select>
+              </div>
+            </div>-->
+            
+            <div class="col-md-3">
+              <div class="form-group">
+                  <label for="exampleInputEmail1">Location</label>
+                    <select class="form-control select2" name="from_stk_loc" id="loc">
+                                          <option value="PL" selected>Head Office</option>
+                                          <option value="Kl" >Kolkata</option>
+                                        </select>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="form-group">
+                <label>Date<span class="text-danger"> *</span></label>
+                <div class="input-group date">
+                  <div class="input-group-addon">
+                    <i class="fa fa-calendar"></i>
+                  </div>
+                  <input class="form-control" id="datepicker" type="text" name="ord_date">
+                </div>
+                <!-- /.input group -->
+              </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3">
+              <div class="form-group">
+                  <label for="exampleInputEmail1">Payment Method</label>
+                     <select class="form-control select2" name="payment_id">
+                    
+                                          <option value="1" >Paypal</option>
+                                          <option value="2" >Bank</option>
+                                          <option value="3" selected>Cash</option>
+                                          <option value="4" >Paytm</option>
+                                        </select>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="form-group">
+                  <label for="exampleInputEmail1">Payment Term</label>
+                    <select class="form-control select2" name="payment_term">
+                                          <option value="1" selected>Cash on deleivery</option>
+                                          <option value="2" >Net15</option>
+                                          <option value="3" >Net30</option>
+                                        </select>
+              </div>
+            </div>            
+            <div class="col-md-3" style="display: none">
+              <div class="form-group">
+                  <label for="exampleInputEmail1">Sales Type</label>
+                   <select class="form-control select2" name="sales_type" id="sales_type_id">
+                  
+                                          <option value="1" selected>Retail</option>
+                                          <option value="2" >Wholesale</option>
+                                        </select>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="form-group">
+                  <label for="exampleInputEmail1">Reference<span class="text-danger"> *</span></label>
+                  <div class="input-group">
+                     <div class="input-group-addon">INV-</div>
+                     <input id="reference_no" class="form-control" value="0014" type="text">
+                     <input type="hidden"  name="reference" id="reference_no_write" value="">
+                  </div>
+                  <span id="errMsg" class="text-danger"></span>
+              </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                  <label for="exampleInputEmail1">Add Item</label>
+                  <input class="form-control auto" placeholder="Search Item" id="search">   
+                  <ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content" id="no_div" tabindex="0" style="display: none; top: 60px; left: 15px; width: 520px;">
+                  <li>No record found!</li>
+                  </ul>
+              </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+              <!-- /.box-header -->
+              <div class="box-body no-padding">
+                <div class="table-responsive">
+                <table class="table table-bordered" id="purchaseInvoice">
+                  <tbody>
+
+                  <tr class="tbl_header_color dynamicRows">
+                    <th width="15%" class="text-center">Description</th>
+                    <th width="10%" class="text-center">HSN/SAC</th>
+                    <th width="10%" class="text-center">Quantity</th>
+                    <th width="10%" class="text-center">Rate(₹)</th>
+                    <th width="15%" class="text-center">Tax(%)</th>
+                    <th width="10%" class="text-center">Tax(₹)</th>
+                    <th width="10%" class="text-center">Discount(%)</th>
+                    <th width="10%" class="text-center">Amount(₹)</th>
+                    <th width="5%"  class="text-center">Action</th>
+                  </tr>
+
+                  <tr class="custom-item"><td class="add-row text-danger"><strong>Add Custom Item</strong></td><td colspan="7"></td></tr>
+
+                  <tr class="tableInfo"><td colspan="6" align="right"><strong>Sub Total(₹)</strong></td><td align="left" colspan="2"><strong id="subTotal"></strong></td></tr>
+                  <tr class="tableInfo"><td colspan="6" align="right"><strong>Total Tax(₹)</strong></td><td align="left" colspan="2"><strong id="taxTotal"></strong></td></tr>
+                  <tr class="tableInfo"><td colspan="6" align="right"><strong>Grand Total(₹)</strong></td><td align="left" colspan="2"><input type='text' name="total" class="form-control" id = "grandTotal" readonly></td></tr>
+
+                  </tbody>
+                </table>
+                </div>
+                <br><br>
+              </div>
+            </div>
+              <!-- /.box-body -->
+              <div class="col-md-12">
+              <div class="form-group">
+                    <label for="exampleInputEmail1">Note</label>
+                    <textarea placeholder="Description ..." rows="3" class="form-control" name="comments"></textarea>
+                </div>
+                <a href="https://www.vpran.in/gstbilling/gstbilling/index.php/sales/list" class="btn btn-info btn-flat">Cancel</a>
+                <button type="submit" class="btn btn-primary btn-flat pull-right" id="btnSubmit">Submit</button>
+              </div>
+        </div>
+                </form>
+            <!-- /.col -->
+            
+            <!-- /.col -->
+      </div>
+          <!-- /.row -->
+    </div>
+        <!-- /.box-body -->
+      <!-- /.box -->
+
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+  <footer class="main-footer">
+    <div class="pull-right hidden-xs">
+      <b>Version</b> 1.0.0
+    </div>
+    <strong>Copyright &copy; 2019 <a href="#"></a>.</strong> All rights
+    reserved.
+ </footer>
+  <!-- Control Sidebar -->
+  <!-- Control Sidebar Right -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Create the tabs -->
+    <ul class="nav nav-tabs nav-justified control-sidebar-tabs">
+      <li><a href="#control-sidebar-home-tab" data-toggle="tab"><i class="fa fa-home"></i></a></li>
+      <li><a href="#control-sidebar-settings-tab" data-toggle="tab"><i class="fa fa-gears"></i></a></li>
+    </ul>
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <!-- Home tab content -->
+      <div class="tab-pane" id="control-sidebar-home-tab">
+        <h3 class="control-sidebar-heading">Recent Activity</h3>
+        <ul class="control-sidebar-menu">
+          <li>
+            <a href="javascript:void(0)">
+              <i class="menu-icon fa fa-birthday-cake bg-red"></i>
+
+              <div class="menu-info">
+                <h4 class="control-sidebar-subheading">Langdon's Birthday</h4>
+
+                <p>Will be 23 on April 24th</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              <i class="menu-icon fa fa-user bg-yellow"></i>
+
+              <div class="menu-info">
+                <h4 class="control-sidebar-subheading">Frodo Updated His Profile</h4>
+
+                <p>New phone +1(800)555-1234</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              <i class="menu-icon fa fa-envelope-o bg-light-blue"></i>
+
+              <div class="menu-info">
+                <h4 class="control-sidebar-subheading">Nora Joined Mailing List</h4>
+
+                <p>nora@example.com</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              <i class="menu-icon fa fa-file-code-o bg-green"></i>
+
+              <div class="menu-info">
+                <h4 class="control-sidebar-subheading">Cron Job 254 Executed</h4>
+
+                <p>Execution time 5 seconds</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <!-- /.control-sidebar-menu -->
+
+        <h3 class="control-sidebar-heading">Tasks Progress</h3>
+        <ul class="control-sidebar-menu">
+          <li>
+            <a href="javascript:void(0)">
+              <h4 class="control-sidebar-subheading">
+                Custom Template Design
+                <span class="label label-danger pull-right">70%</span>
+              </h4>
+
+              <div class="progress progress-xxs">
+                <div class="progress-bar progress-bar-danger" style="width: 70%"></div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              <h4 class="control-sidebar-subheading">
+                Update Resume
+                <span class="label label-success pull-right">95%</span>
+              </h4>
+
+              <div class="progress progress-xxs">
+                <div class="progress-bar progress-bar-success" style="width: 95%"></div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              <h4 class="control-sidebar-subheading">
+                Laravel Integration
+                <span class="label label-warning pull-right">50%</span>
+              </h4>
+
+              <div class="progress progress-xxs">
+                <div class="progress-bar progress-bar-warning" style="width: 50%"></div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              <h4 class="control-sidebar-subheading">
+                Back End Framework
+                <span class="label label-primary pull-right">68%</span>
+              </h4>
+
+              <div class="progress progress-xxs">
+                <div class="progress-bar progress-bar-primary" style="width: 68%"></div>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <!-- /.control-sidebar-menu -->
+
+      </div>
+      <!-- /.tab-pane -->
+      <!-- Stats tab content -->
+      <div class="tab-pane" id="control-sidebar-stats-tab">Stats Tab Content</div>
+      <!-- /.tab-pane -->
+      <!-- Settings tab content -->
+      <div class="tab-pane" id="control-sidebar-settings-tab">
+        <form method="post">
+          <h3 class="control-sidebar-heading">General Settings</h3>
+
+          <div class="form-group">
+            <label class="control-sidebar-subheading">
+              Report panel usage
+              <input type="checkbox" class="pull-right" checked>
+            </label>
+
+            <p>
+              Some information about this general settings option
+            </p>
+          </div>
+          <!-- /.form-group -->
+
+          <div class="form-group">
+            <label class="control-sidebar-subheading">
+              Allow mail redirect
+              <input type="checkbox" class="pull-right" checked>
+            </label>
+
+            <p>
+              Other sets of options are available
+            </p>
+          </div>
+          <!-- /.form-group -->
+
+          <div class="form-group">
+            <label class="control-sidebar-subheading">
+              Expose author name in posts
+              <input type="checkbox" class="pull-right" checked>
+            </label>
+
+            <p>
+              Allow the user to show his name in blog posts
+            </p>
+          </div>
+          <!-- /.form-group -->
+
+          <h3 class="control-sidebar-heading">Chat Settings</h3>
+
+          <div class="form-group">
+            <label class="control-sidebar-subheading">
+              Show me as online
+              <input type="checkbox" class="pull-right" checked>
+            </label>
+          </div>
+          <!-- /.form-group -->
+
+          <div class="form-group">
+            <label class="control-sidebar-subheading">
+              Turn off notifications
+              <input type="checkbox" class="pull-right">
+            </label>
+          </div>
+          <!-- /.form-group -->
+
+          <div class="form-group">
+            <label class="control-sidebar-subheading">
+              Delete chat history
+              <a href="javascript:void(0)" class="text-red pull-right"><i class="fa fa-trash-o"></i></a>
+            </label>
+          </div>
+          <!-- /.form-group -->
+        </form>
+      </div>
+      <!-- /.tab-pane -->
+    </div>
+  </aside>  <!-- /.control-sidebar -->
+  <!-- Add the sidebar's background. This div must be placed
+       immediately after the control sidebar -->
+  <div class="control-sidebar-bg"></div>
+</div>
+<!-- ./wrapper -->
+<!-- jQuery 2.2.3 -->
+<script src="https://www.vpran.in/gstbilling/gstbilling/public/plugins/jQuery/jquery-2.2.3.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="https://www.vpran.in/gstbilling/gstbilling/public/dist/js/jquery-ui.min.js"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+  $.widget.bridge('uibutton', $.ui.button);
+</script>
+<!-- Bootstrap 3.3.6 -->
+<script src="https://www.vpran.in/gstbilling/gstbilling/public/bootstrap/js/bootstrap.min.js"></script>
+<!-- Select2 -->
+<script src="https://www.vpran.in/gstbilling/gstbilling/public/plugins/select2/select2.full.min.js"></script>
+<!-- DataTables -->
+<script src="https://www.vpran.in/gstbilling/gstbilling/public/plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="https://www.vpran.in/gstbilling/gstbilling/public/plugins/datatables/dataTables.bootstrap.min.js"></script>
+<script src="https://www.vpran.in/gstbilling/gstbilling/public/plugins/moment.min.js"></script>
+<!-- datepicker -->
+<script src="https://www.vpran.in/gstbilling/gstbilling/public/plugins/datepicker/bootstrap-datepicker.js"></script>
+
+<!-- FastClick -->
+<script src="https://www.vpran.in/gstbilling/gstbilling/public/plugins/fastclick/fastclick.js"></script>
+<!-- AdminLTE App -->
+<script src="https://www.vpran.in/gstbilling/gstbilling/public/dist/js/app.min.js"></script>
+
+<!-- Chart -->
+<script src="https://www.vpran.in/gstbilling/gstbilling/public/plugins/chartjs/Chart.min.js"></script>
+
+<script src="https://www.vpran.in/gstbilling/gstbilling/public/dist/js/jquery.validate.min.js"></script>
+<script src="https://www.vpran.in/gstbilling/gstbilling/public/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
+
+<script src="https://www.vpran.in/gstbilling/gstbilling/public/plugins/bootstrap-confirm-delete.js"></script>
+<script src="https://www.vpran.in/gstbilling/gstbilling/public/dist/js/jquery.PrintArea.js"></script>
+
+<script type="text/javascript">
+  $.ajaxSetup({
+     headers: { 'X-CSRF-Token' : $('meta[name=_token]').attr('content') }
+  });
+</script>
+
+<script src="https://www.vpran.in/gstbilling/gstbilling/public/plugins/highchart/highcharts.js"></script>
+
+
+<script>
+
+  var ar = {
+                "sProcessing":   "جارٍ التحميل...",
+                "sLengthMenu":   "أظهر _MENU_ مدخلات",
+                "sZeroRecords":  "لم يعثر على أية سجلات",
+                "sInfo":         "إظهار _START_ إلى _END_ من أصل _TOTAL_ مدخل",
+                "sInfoEmpty":    "يعرض 0 إلى 0 من أصل 0 سجل",
+                "sInfoFiltered": "(منتقاة من مجموع _MAX_ مُدخل)",
+                "sInfoPostFix":  "",
+                "sSearch":       "ابحث:",
+                "sUrl":          "",
+                "oPaginate": {
+                    "sFirst":    "الأول",
+                    "sPrevious": "السابق",
+                    "sNext":     "التالي",
+                    "sLast":     "الأخير"
+                }
+            }
+
+  var ch = {
+              "sProcessing":   "处理中...",
+              "sLengthMenu":   "显示 _MENU_ 项结果",
+              "sZeroRecords":  "没有匹配结果",
+              "sInfo":         "显示第 _START_ 至 _END_ 项结果，共 _TOTAL_ 项",
+              "sInfoEmpty":    "显示第 0 至 0 项结果，共 0 项",
+              "sInfoFiltered": "(由 _MAX_ 项结果过滤)",
+              "sInfoPostFix":  "",
+              "sSearch":       "搜索:",
+              "sUrl":          "",
+              "sEmptyTable":     "表中数据为空",
+              "sLoadingRecords": "载入中...",
+              "sInfoThousands":  ",",
+              "oPaginate": {
+                  "sFirst":    "首页",
+                  "sPrevious": "上页",
+                  "sNext":     "下页",
+                  "sLast":     "末页"
+              },
+              "oAria": {
+                  "sSortAscending":  ": 以升序排列此列",
+                  "sSortDescending": ": 以降序排列此列"
+              }
+          }
+
+  var en = {
+              "decimal":        "",
+              "emptyTable":     "No data available in table",
+              "info":           "Showing _START_ to _END_ of _TOTAL_ entries",
+              "infoEmpty":      "Showing 0 to 0 of 0 entries",
+              "infoFiltered":   "(filtered from _MAX_ total entries)",
+              "infoPostFix":    "",
+              "thousands":      ",",
+              "lengthMenu":     "Show _MENU_ entries",
+              "loadingRecords": "Loading...",
+              "processing":     "Processing...",
+              "search":         "Search:",
+              "zeroRecords":    "No matching records found",
+              "paginate": {
+                  "first":      "First",
+                  "last":       "Last",
+                  "next":       "Next",
+                  "previous":   "Previous"
+              },
+              "aria": {
+                  "sortAscending":  ": activate to sort column ascending",
+                  "sortDescending": ": activate to sort column descending"
+              }
+          };
+
+    var fr = {
+                "lengthMenu": "Afficher _MENU_ records par page",
+                "zeroRecords": "Rien n'a été trouvé - Pardon",
+                "infoEmpty": "Aucun enregistrement disponible",
+                "search":         "Chercher:",
+                "paginate": {
+                    "first":      "Premier",
+                    "last":       "Dernier",
+                    "next":       "Prochain",
+                    "previous":   "précédent"
+                },
+                "info": "présentation _START_ to _END_ of _TOTAL_ entrées"
+              }
+
+    var jp = {
+                "sEmptyTable":     "テーブルにデータがありません",
+                "sInfo":           " _TOTAL_ 件中 _START_ から _END_ まで表示",
+                  "sInfoEmpty":      " 0 件中 0 から 0 まで表示",
+                  "sInfoFiltered":   "（全 _MAX_ 件より抽出）",
+                "sInfoPostFix":    "",
+                "sInfoThousands":  ",",
+                  "sLengthMenu":     "_MENU_ 件表示",
+                "sLoadingRecords": "読み込み中...",
+                  "sProcessing":     "処理中...",
+                "sSearch":         "検索:",
+                  "sZeroRecords":    "一致するレコードがありません",
+                  "oPaginate": {
+                      "sFirst":    "先頭",
+                      "sLast":     "最終",
+                      "sNext":     "次",
+                      "sPrevious": "前"
+                  },
+                "oAria": {
+                      "sSortAscending":  ": 列を昇順に並べ替えるにはアクティブにする",
+                      "sSortDescending": ": 列を降順に並べ替えるにはアクティブにする"
+                  }
+              }
+
+    var rs = {
+                "processing": "Подождите...",
+                "search": "Поиск:",
+                "lengthMenu": "Показать _MENU_ записей",
+                "info": "Записи с _START_ до _END_ из _TOTAL_ записей",
+                "infoEmpty": "Записи с 0 до 0 из 0 записей",
+                "infoFiltered": "(отфильтровано из _MAX_ записей)",
+                "infoPostFix": "",
+                "loadingRecords": "Загрузка записей...",
+                "zeroRecords": "Записи отсутствуют.",
+                "emptyTable": "В таблице отсутствуют данные",
+                "paginate": {
+                  "first": "Первая",
+                  "previous": "Предыдущая",
+                  "next": "Следующая",
+                  "last": "Последняя"
+                },
+                "aria": {
+                  "sortAscending": ": активировать для сортировки столбца по возрастанию",
+                  "sortDescending": ": активировать для сортировки столбца по убыванию"
+                }
+              }
+
+    var sp = {
+                "sProcessing":     "Procesando...",
+                "sLengthMenu":     "Mostrar _MENU_ registros",
+                "sZeroRecords":    "No se encontraron resultados",
+                "sEmptyTable":     "Ningún dato disponible en esta tabla",
+                "sInfo":           "Mostrando registros del _START_ al _END_ de un total de _TOTAL_ registros",
+                "sInfoEmpty":      "Mostrando registros del 0 al 0 de un total de 0 registros",
+                "sInfoFiltered":   "(filtrado de un total de _MAX_ registros)",
+                "sInfoPostFix":    "",
+                "sSearch":         "Buscar:",
+                "sUrl":            "",
+                "sInfoThousands":  ",",
+                "sLoadingRecords": "Cargando...",
+                "oPaginate": {
+                    "sFirst":    "Primero",
+                    "sLast":     "Último",
+                    "sNext":     "Siguiente",
+                    "sPrevious": "Anterior"
+                },
+                "oAria": {
+                    "sSortAscending":  ": Activar para ordenar la columna de manera ascendente",
+                    "sSortDescending": ": Activar para ordenar la columna de manera descendente"
+                }
+            }
+    
+	<!-- //Dialog show event handler -->
+
+  $('#confirmDelete').on('show.bs.modal', function (e) {
+      $message  = $(e.relatedTarget).attr('data-message');
+      $(this).find('.modal-body p').text($message);
+      $title    = $(e.relatedTarget).attr('data-title');
+      $(this).find('.modal-title').text($title);
+
+      // Pass form reference to modal for submission on yes/ok
+      var form  = $(e.relatedTarget).closest('form');
+      $(this).find('.modal-footer #confirm').data('form', form);
+  });
+
+  <!--// Form confirm (yes/ok) handler, submits form -->
+  $('#confirmDelete').find('.modal-footer #confirm').on('click', function(){
+      $(this).data('form').submit();
+  });
+
+
+  $('.lang').on('click', function() {
+    var lang = $(this).attr('id');
+    var url = "https://www.vpran.in/gstbilling/gstbilling/index.php/change-lang";
+    var token = "bVmli3zR4KOlzyjOyxn8GJ6kvLZadpTKtXGOa1RM";
+    $.ajax({
+            url   :url,
+            async : false,
+            data:{                  // data that will be sent
+                _token:token,
+                lang:lang
+            },
+            type:"POST",            // type of submision
+            success:function(data){
+                console.log("sucess "+data);
+                if(data == 1) {
+                    location.reload();
+
+                }
+                
+            },
+             error: function(xhr, desc, err) {
+                
+                return 0;
+            }
+        });
+  });
+
+$("#notifications").fadeTo(2000, 500).slideUp(500, function(){
+    $("#notifications").slideUp(500);
+});
+
+// Google analytics start
+
+  //end
+
+</script>    <script type="text/javascript">
+$(function() {
+    $(document).on('click', function(e) {
+        if (e.target.id === 'no_div') {
+            $('#no_div').hide();
+        } else {
+            $('#no_div').hide();
+        }
+
+    })
+});
+
+    var taxOptionList = "<select class='form-control taxList' name='tax_id[]'><option value='1' taxrate='0.00'>GST@0(0.00)</option><option value='2' taxrate='12.00'>GST@12(12.00)</option><option value='3' taxrate='28.00'>GST@28(28.00)</option><option value='4' taxrate='5.00'>GST@5(5.00)</option><option value='5' taxrate='3.00'>GST@3(3.00)</option><option value='6' taxrate='0.25'>GST@0.25(0.25)</option><option value='7' taxrate='18.00'>GST@18(18.00)</option></select>";
+    var taxOptionListCustom = "<select class='form-control taxListCustom' name='tax_id_custom[]'><option value='1' taxrate='0.00'>GST@0(0.00)</option><option value='2' taxrate='12.00'>GST@12(12.00)</option><option value='3' taxrate='28.00'>GST@28(28.00)</option><option value='4' taxrate='5.00'>GST@5(5.00)</option><option value='5' taxrate='3.00'>GST@3(3.00)</option><option value='6' taxrate='0.25'>GST@0.25(0.25)</option><option value='7' taxrate='18.00'>GST@18(18.00)</option></select>";
+    $(document).ready(function(){
+      var refNo ='INV-'+$("#reference_no").val();
+      $("#reference_no_write").val(refNo);
+      
+      $("#customer").on('change', function(){
+      var debtor_no = $(this).val();
+      $.ajax({
+        method: "POST",
+        url: SITE_URL+"/sales/get-branches",
+        data: { "debtor_no": debtor_no,"_token":token }
+      })
+        .done(function( data ) {
+          var data = jQuery.parseJSON(data);
+          if(data.status_no == 1){
+            $("#branch").html(data.branchs);
+          }
+        });
+      });
+    });
+
+    
+    $(document).on('keyup', '#reference_no', function () {
+
+        var val = $(this).val();
+
+        if(val == null || val == ''){
+         $("#errMsg").html("Already Exist!");
+          $('#btnSubmit').attr('disabled', 'disabled');
+          return;
+         }else{
+          $('#btnSubmit').removeAttr('disabled');
+         }
+
+        var ref = 'INV-'+$(this).val();
+        $("#reference_no_write").val(ref);
+      // Check Reference no if available
+      $.ajax({
+        method: "POST",
+        url: SITE_URL+"/sales/reference-validation",
+        data: { "ref": ref,"_token":token }
+      })
+        .done(function( data ) {
+          var data = jQuery.parseJSON(data);
+          if(data.status_no == 1){
+            $("#errMsg").html("Already Exist!");
+          }else if(data.status_no == 0){
+            $("#errMsg").html("Available");
+          }
+        });
+    });
+
+    function in_array(search, array)
+    {
+      for (i = 0; i < array.length; i++)
+      {
+        if(array[i] ==search )
+        {
+          return true;
+        }
+      }
+        return false;
+    }
+
+    $(function () {
+        //Initialize Select2 Elements
+        $(".select2").select2({});
+
+        //Date picker
+        $('#datepicker').datepicker({
+            autoclose: true,
+            todayHighlight: true,
+            format: 'dd-mm-yyyy'
+        });
+        $('#datepicker').datepicker('update', new Date());
+
+        $('.ref').val(Math.floor((Math.random() * 100) + 1));
+       });
+    var stack = [];
+    var token = $("#token").val();
+    
+    $( "#search" ).autocomplete({
+        source: function(request, response) {
+            $.ajax({
+                url: "https://www.vpran.in/gstbilling/gstbilling/index.php/sales/search",
+                dataType: "json",
+                type: "POST",
+                data: {
+                    _token:token,
+                    search: request.term,
+                },
+                success: function(data){
+                  //Start
+                    if(data.status_no == 1){
+                    $("#val_item").html();
+                     var data = data.items;
+                     $('#no_div').css('display','none');
+                    response( $.map( data, function( item ) {
+                        return {
+                            id: item.id,
+                            stock_id: item.stock_id,
+                            value: item.description,
+                            hsn: item.hsn,
+                            units: item.units,
+                            price: item.price,
+                            tax_rate: item.tax_rate,
+                            tax_id: item.tax_id,
+                            qty:item.qty
+                        }
+                    }));
+                  }else{
+                    $('.ui-menu-item').remove();
+                    $("#no_div").css('display','block');
+                  }
+                  //end
+
+                 }
+            })
+        },
+
+        select: function(event, ui) {
+          var e = ui.item;
+
+          if(e.id) {
+              if(!in_array(e.id, stack))
+              {
+                stack.push(e.id);
+                var taxAmount = roundToTwo((e.price*e.tax_rate)/100);
+                var new_row = '<tr id="rowid'+e.id+'">'+
+                          '<td class="text-center">'+ e.value +'<input type="hidden" name="stock_id[]" value="'+e.stock_id+'"><input type="hidden" name="description[]" value="'+e.value+'"></td>'+
+                          '<td class="text-center">'+ e.hsn +'<input type="hidden" name="hsn[]" value="'+e.hsn+'"></td>'+
+                          '<td><input class="form-control text-center no_units" min="0" data-id="'+e.id+'" type="text" id="qty_'+e.id+'" name="item_quantity[]" value="1"><input type="hidden" name="item_id[]" value="'+e.id+'"></td>'+
+                          '<td class="text-center"><input min="0"  type="text" class="form-control text-center unitprice" name="unit_price[]" data-id = "'+e.id+'" id="rate_id_'+e.id+'" value="'+ e.price +'"></td>'+
+                          
+                          '<td class="text-center">'+ taxOptionList +'</td>'+
+                          '<td class="text-center taxAmount">'+ taxAmount +'</td>'+
+
+                          '<td class="text-center"><input type="text" class="form-control text-center discount" name="discount[]" data-input-id="'+e.id+'" id="discount_id_'+e.id+'" max="100" min="0" value="0"></td>'+
+                          '<td><input class="form-control text-center amount" type="text" amount-id = "'+e.id+'" id="amount_'+e.id+'" value="'+e.price+'" name="item_price[]" readonly></td>'+
+                          '<td class="text-center"><button id="'+e.id+'" class="btn btn-xs btn-danger delete_item"><i class="glyphicon glyphicon-trash"></i></button></td>'+
+                          '</tr>';
+
+                $(new_row).insertAfter($('table tr.dynamicRows:last'));
+
+                $(function() {
+                    $("#rowid"+e.id+' .taxList').val(e.tax_id);
+                });
+                var taxRateValue = parseFloat( $("#rowid"+e.id+' .taxList').find(':selected').attr('taxrate'));
+
+                // Calculate subtotal
+                var subTotal = calculateSubTotal();
+                $("#subTotal").html(subTotal);
+
+                // Calculate Grand Total
+                var taxTotal = calculateTaxTotal();
+                $("#taxTotal").text(taxTotal);
+
+                var grandTotal = (subTotal + taxTotal);
+                $("#grandTotal").val(roundToTwo(grandTotal));
+
+                $('.tableInfo').show();
+
+              } else {
+
+                  $('#qty_'+e.id).val( function(i, oldval) {
+                      return ++oldval;
+                  });
+                
+                  var q = $('#qty_'+e.id).val();
+                  var r = $("#rate_id_"+e.id).val();
+
+                $('#amount_'+e.id).val( function(i, amount) {
+                    var result = q*r; 
+                    var amountId = $(this).attr("amount-id");
+                    var qty = parseFloat($("#qty_"+amountId).val());
+                    var unitPrice = parseFloat($("#rate_id_"+amountId).val());
+                    var discountPercent = parseFloat($("#discount_id_"+amountId).val())/100;
+                    if(isNaN(discountPercent)){
+                      discountPercent = 0;
+                    }
+                    var discountAmount = qty*unitPrice*discountPercent;
+                    var newPrice = parseFloat([(q*unitPrice)-discountAmount]);
+                    return newPrice;
+                });
+               
+               var taxRateValue = parseFloat( $("#rowid"+e.id+' .taxList').find(':selected').attr('taxrate'));
+               var amountByRow = $('#amount_'+e.id).val(); 
+               console.log(amountByRow);
+               var taxByRow = roundToTwo(amountByRow*taxRateValue/100);
+               $("#rowid"+e.id+" .taxAmount").text(taxByRow);
+
+                // Calculate subTotal
+                var subTotal = calculateSubTotal();
+                $("#subTotal").html(subTotal);
+                // Calculate taxTotal
+                var taxTotal = calculateTaxTotal();
+                 $("#taxTotal").text(taxTotal);
+                // Calculate GrandTotal
+                var grandTotal = (subTotal + taxTotal);
+                $("#grandTotal").val(roundToTwo(grandTotal));
+
+              }
+              
+              $(this).val('');
+              $('#val_item').html('');
+              return false;
+          }
+        },
+        minLength: 1,
+        autoFocus: true
+    });
+
+
+    $(document).on('change keyup blur','.check',function() {
+      var row_id = $(this).attr("id").substr(2);
+      var disc = $(this).val();
+      var amd = $('#a_'+row_id).val();
+
+      if (disc != '' && amd != '') {
+        $('#a_'+row_id).val((parseFloat(amd)) - (parseFloat(disc)));
+      } else {
+        $('#a_'+row_id).val(parseFloat(amd));
+      }
+      
+    });
+
+    $(document).ready(function() {
+          $(window).keydown(function(event){
+            if(event.keyCode == 13) {
+              event.preventDefault();
+              return false;
+            }
+          });
+        });
+
+    // price calcualtion with quantity
+     $(document).ready(function(){
+       $('.tableInfo').hide();
+      });
+
+     // calculate amount with item quantity
+    $(document).on('keyup', '.no_units', function(ev){
+      var id = $(this).attr("data-id");
+      var qty = parseInt($(this).val());
+      if(isNaN(qty)){
+          qty = 0;
+       }
+       
+      var rate = $("#rate_id_"+id).val();
+    
+      var price = calculatePrice(qty,rate);  
+
+      var discountRate = parseFloat($("#discount_id_"+id).val());     
+      if(isNaN(discountRate)){
+          discountRate = 0;
+       }
+      var discountPrice = calculateDiscountPrice(price,discountRate); 
+      $("#amount_"+id).val(discountPrice);
+
+       var taxRateValue = parseFloat( $("#rowid"+id+' .taxList').find(':selected').attr('taxrate'));
+       var amountByRow = $('#amount_'+id).val(); 
+       var taxByRow = roundToTwo(amountByRow*taxRateValue/100);
+       $("#rowid"+id+" .taxAmount").text(taxByRow);
+
+      // Calculate subTotal
+      var subTotal = calculateSubTotal();
+      $("#subTotal").html(subTotal);
+      // Calculate taxTotal
+      var taxTotal = calculateTaxTotal();
+      $("#taxTotal").text(taxTotal);
+      // Calculate GrandTotal
+      var grandTotal = (subTotal + taxTotal);
+      $("#grandTotal").val(roundToTwo(grandTotal));
+    });
+
+     // calculate amount with discount
+    $(document).on('keyup', '.discount', function(ev){
+     
+      var discount = parseFloat($(this).val());
+
+      if(isNaN(discount)){
+          discount = 0;
+       } 
+      
+      var id = $(this).attr("data-input-id");
+      var qty = $("#qty_"+id).val();
+      var rate = $("#rate_id_"+id).val();
+      var discountRate = $("#discount_id_"+id).val();
+
+      var price = calculatePrice(qty,rate); 
+      var discountPrice = calculateDiscountPrice(price,discountRate);       
+      $("#amount_"+id).val(discountPrice);
+       
+       var taxRateValue = parseFloat( $("#rowid"+id+' .taxList').find(':selected').attr('taxrate'));
+       var amountByRow = $('#amount_'+id).val(); 
+       var taxByRow = roundToTwo(amountByRow*taxRateValue/100);
+       $("#rowid"+id+" .taxAmount").text(taxByRow);
+
+
+      // Calculate subTotal
+      var subTotal = calculateSubTotal();
+      $("#subTotal").html(subTotal);
+      // Calculate taxTotal
+      var taxTotal = calculateTaxTotal();
+      $("#taxTotal").text(taxTotal);
+      // Calculate GrandTotal
+      var grandTotal = (subTotal + taxTotal);
+      $("#grandTotal").val(roundToTwo(grandTotal));
+
+    });
+
+
+     // calculate amount with unit price
+    $(document).on('keyup', '.unitprice', function(ev){
+     
+      var unitprice = parseFloat($(this).val());
+
+      if(isNaN(unitprice)){
+          unitprice = 0;
+       }
+      
+      var id = $(this).attr("data-id");
+      var qty = $("#qty_"+id).val();
+      var rate = $("#rate_id_"+id).val();
+      var discountRate = $("#discount_id_"+id).val();
+
+      var price = calculatePrice(qty,rate);  
+      var discountPrice = calculateDiscountPrice(price,discountRate);     
+      $("#amount_"+id).val(discountPrice);
+      
+       var taxRateValue = parseFloat( $("#rowid"+id+' .taxList').find(':selected').attr('taxrate'));
+       var amountByRow = $('#amount_'+id).val(); 
+       var taxByRow = roundToTwo(amountByRow*taxRateValue/100);
+       $("#rowid"+id+" .taxAmount").text(taxByRow);
+
+      // Calculate subTotal
+      var subTotal = calculateSubTotal();
+      $("#subTotal").html(subTotal);
+      // Calculate taxTotal
+      var taxTotal = calculateTaxTotal();
+      $("#taxTotal").text(taxTotal);
+      // Calculate GrandTotal
+      var grandTotal = (subTotal + taxTotal);
+      $("#grandTotal").val(roundToTwo(grandTotal));
+
+    });
+
+    $(document).on('change', '.taxList', function(ev){
+      var taxRateValue = $(this).find(':selected').attr('taxrate');
+      var rowId = $(this).closest('tr').prop('id');
+      var amountByRow = $("#"+rowId+" .amount").val(); 
+      
+      var taxByRow = roundToTwo(amountByRow*taxRateValue/100);
+      $("#"+rowId+" .taxAmount").text(taxByRow);
+      // Calculate subTotal
+      var subTotal = calculateSubTotal();
+      $("#subTotal").html(subTotal);
+      // Calculate taxTotal
+      var taxTotal = calculateTaxTotal();
+      $("#taxTotal").text(taxTotal);
+      // Calculate GrandTotal
+      var grandTotal = (subTotal + taxTotal);
+      $("#grandTotal").val(roundToTwo(grandTotal));
+
+    });
+    // Delete item row
+    $(document).ready(function(e){
+      $('#purchaseInvoice').on('click', '.delete_item', function() {
+            var v = $(this).attr("id");
+            stack = jQuery.grep(stack, function(value) {
+              return value != v;
+            });
+            
+            $(this).closest("tr").remove();
+
+           var taxRateValue = parseFloat( $("#rowid"+v+' .taxList').find(':selected').attr('taxrate'));
+           var amountByRow = $('#amount_'+v).val(); 
+           var taxByRow = roundToTwo(amountByRow*taxRateValue/100);
+           $("#rowid"+v+" .taxAmount").text(taxByRow);
+
+            var subTotal = calculateSubTotal();
+            $("#subTotal").html(subTotal);
+           
+            var taxTotal = calculateTaxTotal();
+             $("#taxTotal").text(taxTotal);
+
+            // Calculate GrandTotal
+            var grandTotal = (subTotal + taxTotal);
+            $("#grandTotal").val(roundToTwo(grandTotal));           
+            var count = $('#purchaseInvoice tr.insufficient').length;
+          
+          if(count==0){
+           $("#quantityMessage").hide();
+            $('#btnSubmit').removeAttr('disabled');
+          }
+        });
+    });
+      
+      /**
+      * Calcualte Total tax
+      *@return  totalTax for row wise
+      */
+      function calculateTaxTotal (){
+          var totalTax = 0;
+            $('.taxAmount').each(function() {
+                totalTax += parseFloat($(this).text());
+            });
+            return roundToTwo(totalTax);
+      }
+      
+      /**
+      * Calcualte Sub Total 
+      *@return  subTotal
+      */
+      function calculateSubTotal (){
+        var subTotal = 0;
+        $('.amount').each(function() {
+            subTotal += parseFloat($(this).val());
+        });
+        return roundToTwo(subTotal);
+      }
+
+
+      /**
+      * Calcualte price
+      *@return  price
+      */
+      function calculatePrice (qty,rate){
+         var price = (qty*rate);
+         return roundToTwo(price);
+      }   
+      // calculate tax 
+      function caculateTax(p,t){
+       var tax = (p*t)/100;
+       return roundToTwo(tax);
+      }
+
+      // calculate discont amount
+      function calculateDiscountPrice(p,d){
+        var discount = [(d*p)/100];
+        var result = (p-discount); 
+        return roundToTwo(result);
+      }
+
+    // Item form validation
+    $('#salesForm').validate({
+        rules: {
+            debtor_no: {
+                required: true
+            },
+            from_stk_loc: {
+                required: true
+            },
+            ord_date:{
+               required: true
+            },
+            reference:{
+              required:true
+            },
+            payment_id:{
+              required:true
+            },
+            branch_id:{
+              required:true
+            }                    
+        }
+    });
+    
+
+// Custom product line add
+    $(".add-row").click(function(){
+    var markup ="<tr>"
+    +"<td><input type='text' class='form-control text-center' name='custom_items_name[]' required></td>"
+    +"<td><input type='text' class='form-control text-center' name='custom_items_hsn[]'></td>"
+    +"<td><input type='text' class='form-control text-center custom_units' name='custom_items_qty[]' value='1'></td>"
+    +"<td><input type='text' class='form-control text-center custom_rate' name='custom_items_rate[]' value='0'></td>"
+    +"<td>" +taxOptionListCustom+ "</td>"
+    +"<td class='text-center taxAmount'>0</td>"
+    +"<td><input type='text' class='form-control text-center custom_discount' name='custom_items_discount[]' value='0'></td>"
+    +"<td><input type='text' class='form-control text-center amount custom_amount' name='custom_items_amount[]' value='0' readonly></td>"
+    +"<td class='text-center'><button class='btn btn-xs btn-danger delete_item'><i class='glyphicon glyphicon-trash'></i></button></td>"
+    +"</tr>";
+
+    $("table tbody .custom-item").before(markup);
+    $('.tableInfo').show();
+    });
+
+    // Change the item quantity
+    $(document).on('keyup','.custom_units', function(){
+    var qty = $(this).val();
+    var rate = $(this).parents('tr').find('input.custom_rate').val();
+    var taxRate = $(this).parents('tr').find('.taxListCustom').find(':selected').attr('taxrate');
+    var discountRate = $(this).parents('tr').find('input.custom_discount').val();
+    
+    var price = calculatePrice(qty,rate);  
+    var discountPrice = calculateDiscountPrice(price,discountRate);     
+    var taxAmount = roundToTwo((discountPrice*taxRate)/100);
+    $(this).parents('tr').find('input.custom_amount').val(discountPrice);
+    $(this).parents('tr').find('.taxAmount').text(taxAmount);
+
+    var subTotal = calculateSubTotal();
+    $("#subTotal").html(subTotal);
+      // Calculate taxTotal
+    var taxTotal = calculateTaxTotal();
+    $("#taxTotal").text(taxTotal);
+      // Calculate GrandTotal
+    var grandTotal = (subTotal + taxTotal);
+    $("#grandTotal").val(roundToTwo(grandTotal));
+    });
+
+    // Change the item rate
+    $(document).on('keyup','.custom_rate', function(){
+    var rate = $(this).val();
+    var qty = $(this).parents('tr').find('input.custom_units').val();
+    var taxRate = $(this).parents('tr').find('.taxListCustom').find(':selected').attr('taxrate');
+    var discountRate = $(this).parents('tr').find('input.custom_discount').val();
+    
+    var price = calculatePrice(qty,rate);  
+    var discountPrice = calculateDiscountPrice(price,discountRate);     
+    var taxAmount = roundToTwo((discountPrice*taxRate)/100);
+    $(this).parents('tr').find('input.custom_amount').val(discountPrice);
+    $(this).parents('tr').find('.taxAmount').text(taxAmount);
+
+    var subTotal = calculateSubTotal();
+    $("#subTotal").html(subTotal);
+      // Calculate taxTotal
+    var taxTotal = calculateTaxTotal();
+    $("#taxTotal").text(taxTotal);
+      // Calculate GrandTotal
+    var grandTotal = (subTotal + taxTotal);
+    $("#grandTotal").val(roundToTwo(grandTotal));
+    });
+
+    // Change the discount
+    $(document).on('keyup','.custom_discount', function(){
+    var discountRate = $(this).val();
+    var qty = $(this).parents('tr').find('input.custom_units').val();
+    var taxRate = $(this).parents('tr').find('.taxListCustom').find(':selected').attr('taxrate');
+    var rate = $(this).parents('tr').find('input.custom_rate').val();
+    
+    var price = calculatePrice(qty,rate);  
+    var discountPrice = calculateDiscountPrice(price,discountRate);     
+    var taxAmount = roundToTwo((discountPrice*taxRate)/100);
+    $(this).parents('tr').find('input.custom_amount').val(discountPrice);
+    $(this).parents('tr').find('.taxAmount').text(taxAmount);
+
+    var subTotal = calculateSubTotal();
+    $("#subTotal").html(subTotal);
+      // Calculate taxTotal
+    var taxTotal = calculateTaxTotal();
+    $("#taxTotal").text(taxTotal);
+      // Calculate GrandTotal
+    var grandTotal = (subTotal + taxTotal);
+    $("#grandTotal").val(roundToTwo(grandTotal));
+    });
+    
+    // Change the tax type
+    $(document).on('change', '.taxListCustom', function(ev){
+
+      var taxRate = $(this).parents('tr').find(':selected').attr('taxrate');
+      var amount = $(this).parents('tr').find('input.amount').val(); 
+      var taxAmount = roundToTwo(amount*taxRate/100);
+      $(this).parents('tr').find('.taxAmount').text(taxAmount);
+
+      // Calculate subTotal
+      var subTotal = calculateSubTotal();
+      $("#subTotal").html(subTotal);
+      // Calculate taxTotal
+      var taxTotal = calculateTaxTotal();
+      $("#taxTotal").text(taxTotal);
+      // Calculate GrandTotal
+      var grandTotal = (subTotal + taxTotal);
+      $("#grandTotal").val(roundToTwo(grandTotal));
+
+    });
+/// Craete Round Figure
+function roundToTwo(num) {    
+    return +(Math.round(num + "e+2")  + "e-2");
+}
+    </script>
+</body>
+</html>

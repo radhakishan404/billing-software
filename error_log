@@ -1,0 +1,77 @@
+[18-Dec-2018 09:43:51 Etc/GMT] PHP Parse error:  syntax error, unexpected T_LIST, expecting T_STRING in /home/newworld/public_html/casestudy/application/models/User_model.php on line 5
+[18-Dec-2018 09:46:06 Etc/GMT] PHP Parse error:  syntax error, unexpected T_LIST, expecting T_STRING in /home/newworld/public_html/casestudy/application/models/User_model.php on line 5
+[06-Jan-2019 03:59:42 Etc/GMT] PHP Parse error:  syntax error, unexpected T_LIST, expecting T_STRING in /home/newworld/public_html/casestudy/application/models/Case_model.php on line 5
+[06-Jan-2019 04:02:58 Etc/GMT] PHP Parse error:  syntax error, unexpected T_LIST, expecting T_STRING in /home/newworld/public_html/casestudy/application/models/Case_model.php on line 5
+[06-Jan-2019 04:03:01 Etc/GMT] PHP Parse error:  syntax error, unexpected T_LIST, expecting T_STRING in /home/newworld/public_html/casestudy/application/models/Case_model.php on line 5
+[06-Jan-2019 04:07:52 Etc/GMT] PHP Parse error:  syntax error, unexpected T_LIST, expecting T_STRING in /home/newworld/public_html/casestudy/application/models/User_model.php on line 5
+[06-Jan-2019 04:07:55 Etc/GMT] PHP Parse error:  syntax error, unexpected T_LIST, expecting T_STRING in /home/newworld/public_html/casestudy/application/models/User_model.php on line 5
+[30-Jan-2019 09:18:37 Etc/GMT] PHP Parse error:  syntax error, unexpected 'from_month' (T_STRING) in /home/newworld/public_html/casestudy/application/controllers/Report.php on line 67
+[30-Jan-2019 09:19:27 Etc/GMT] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/newworld/public_html/casestudy/application/controllers/Report.php on line 67
+[30-Jan-2019 09:29:31 Etc/GMT] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/newworld/public_html/casestudy/application/views/report/center_report.php on line 131
+[30-Jan-2019 09:29:34 Etc/GMT] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/newworld/public_html/casestudy/application/views/report/center_report.php on line 131
+[31-Jan-2019 09:20:41 Etc/GMT] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/newworld/public_html/casestudy/application/controllers/Cases.php on line 118
+[31-Jan-2019 09:20:43 Etc/GMT] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/newworld/public_html/casestudy/application/controllers/Cases.php on line 118
+[31-Jan-2019 11:36:59 Etc/GMT] PHP Fatal error:  Cannot use object of type mysqli as array in /home/newworld/public_html/casestudy/application/views/case/list.php on line 70
+[31-Jan-2019 11:37:21 Etc/GMT] PHP Fatal error:  Cannot use object of type mysqli as array in /home/newworld/public_html/casestudy/application/views/case/list.php on line 70
+[31-Jan-2019 11:37:23 Etc/GMT] PHP Fatal error:  Cannot use object of type mysqli as array in /home/newworld/public_html/casestudy/application/views/case/list.php on line 70
+[31-Jan-2019 11:38:04 Etc/GMT] PHP Fatal error:  Cannot use object of type mysqli as array in /home/newworld/public_html/casestudy/application/views/case/list.php on line 70
+[01-Feb-2019 05:09:08 Etc/GMT] PHP Parse error:  syntax error, unexpected ']' in /home/newworld/public_html/casestudy/application/controllers/Cases.php on line 33
+[01-Feb-2019 05:13:18 Etc/GMT] PHP Fatal error:  Unsupported operand types in /home/newworld/public_html/casestudy/system/libraries/Pagination.php on line 412
+[01-Feb-2019 05:14:54 Etc/GMT] PHP Fatal error:  Unsupported operand types in /home/newworld/public_html/casestudy/system/libraries/Pagination.php on line 412
+[01-Feb-2019 05:16:44 Etc/GMT] PHP Fatal error:  Unsupported operand types in /home/newworld/public_html/casestudy/system/libraries/Pagination.php on line 412
+[01-Feb-2019 05:17:06 Etc/GMT] PHP Fatal error:  Unsupported operand types in /home/newworld/public_html/casestudy/system/libraries/Pagination.php on line 412
+[01-Feb-2019 09:43:38 Etc/GMT] PHP Fatal error:  Call to undefined function years() in /home/newworld/public_html/casestudy/application/controllers/Cases.php on line 29
+[01-Feb-2019 09:43:57 Etc/GMT] PHP Fatal error:  Call to undefined function years() in /home/newworld/public_html/casestudy/application/controllers/Cases.php on line 29
+[01-Feb-2019 10:11:08 Etc/GMT] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home/newworld/public_html/casestudy/application/views/template/main_template.php on line 396
+[01-Feb-2019 10:20:13 Etc/GMT] PHP Parse error:  syntax error, unexpected '[' in /home/newworld/public_html/casestudy/application/controllers/Cases.php on line 34
+[01-Feb-2019 10:22:01 Etc/GMT] PHP Parse error:  syntax error, unexpected '?>' in /home/newworld/public_html/casestudy/application/views/template/main_template.php on line 400
+[01-Feb-2019 10:22:17 Etc/GMT] PHP Parse error:  syntax error, unexpected '?>' in /home/newworld/public_html/casestudy/application/views/template/main_template.php on line 399
+[01-Feb-2019 10:22:40 Etc/GMT] PHP Parse error:  syntax error, unexpected '?>' in /home/newworld/public_html/casestudy/application/views/template/main_template.php on line 398
+[01-Feb-2019 10:24:21 Etc/GMT] PHP Parse error:  syntax error, unexpected '[' in /home/newworld/public_html/casestudy/application/views/template/main_template.php on line 398
+[01-Feb-2019 10:24:33 Etc/GMT] PHP Parse error:  syntax error, unexpected '[' in /home/newworld/public_html/casestudy/application/views/template/main_template.php on line 398
+[01-Feb-2019 10:32:44 Etc/GMT] PHP Parse error:  syntax error, unexpected '[' in /home/newworld/public_html/casestudy/application/views/template/main_template.php on line 398
+[01-Feb-2019 10:33:12 Etc/GMT] PHP Parse error:  syntax error, unexpected '[' in /home/newworld/public_html/casestudy/application/views/template/main_template.php on line 398
+[01-Feb-2019 10:33:26 Etc/GMT] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home/newworld/public_html/casestudy/application/views/template/main_template.php on line 398
+[01-Feb-2019 11:05:19 Etc/GMT] PHP Fatal error:  Maximum execution time of 180 seconds exceeded in /home/newworld/public_html/casestudy/application/views/template/main_template.php on line 411
+[01-Feb-2019 11:57:00 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/newworld/public_html/casestudy/application/views/template/main_template.php on line 460
+[02-Feb-2019 04:42:14 Etc/GMT] PHP Fatal error:  Cannot use object of type CI_DB_mysqli_result as array in /home/newworld/public_html/casestudy/application/views/template/main_template.php on line 444
+[02-Feb-2019 07:48:30 Etc/GMT] PHP Fatal error:  Cannot use [] for reading in /home/newworld/public_html/casestudy/application/views/report/center_report.php on line 22
+[02-Feb-2019 08:05:21 Etc/GMT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/newworld/public_html/casestudy/application/views/report/single_center_report.php on line 146
+[02-Feb-2019 08:06:11 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/newworld/public_html/casestudy/application/views/report/single_center_report.php on line 184
+[02-Feb-2019 08:07:59 Etc/GMT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/newworld/public_html/casestudy/application/views/report/single_center_report.php on line 152
+[02-Feb-2019 08:09:23 Etc/GMT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/newworld/public_html/casestudy/application/views/report/single_center_report.php on line 152
+[02-Feb-2019 08:42:40 Etc/GMT] PHP Parse error:  syntax error, unexpected ',' in /home/newworld/public_html/casestudy/application/controllers/Cases.php on line 121
+[02-Feb-2019 09:27:37 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/newworld/public_html/casestudy/application/views/master/zone_list.php on line 49
+[02-Feb-2019 09:27:43 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/newworld/public_html/casestudy/application/views/master/zone_list.php on line 49
+[02-Feb-2019 09:28:30 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/newworld/public_html/casestudy/application/views/master/zone_list.php on line 49
+[02-Feb-2019 09:28:46 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/newworld/public_html/casestudy/application/views/master/zone_list.php on line 45
+[02-Feb-2019 09:30:53 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/newworld/public_html/casestudy/application/views/master/zone_list.php on line 49
+[04-Feb-2019 08:58:50 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/newworld/public_html/casestudy/application/views/master/zone_list.php on line 68
+[04-Feb-2019 08:58:54 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/newworld/public_html/casestudy/application/views/master/zone_list.php on line 68
+[04-Feb-2019 09:04:04 Etc/GMT] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/newworld/public_html/casestudy/application/controllers/User.php on line 91
+[04-Feb-2019 09:04:26 Etc/GMT] PHP Fatal error:  Call to a member function result() on a non-object in /home/newworld/public_html/casestudy/application/controllers/User.php on line 70
+[04-Feb-2019 09:04:37 Etc/GMT] PHP Fatal error:  Call to a member function result() on a non-object in /home/newworld/public_html/casestudy/application/controllers/User.php on line 70
+[04-Feb-2019 09:05:10 Etc/GMT] PHP Fatal error:  Call to a member function result() on a non-object in /home/newworld/public_html/casestudy/application/controllers/User.php on line 70
+[04-Feb-2019 09:05:57 Etc/GMT] PHP Fatal error:  Call to a member function result() on a non-object in /home/newworld/public_html/casestudy/application/controllers/User.php on line 70
+[04-Feb-2019 09:06:01 Etc/GMT] PHP Fatal error:  Call to a member function result() on a non-object in /home/newworld/public_html/casestudy/application/controllers/User.php on line 70
+[04-Feb-2019 09:08:50 Etc/GMT] PHP Fatal error:  Call to a member function result() on a non-object in /home/newworld/public_html/casestudy/application/controllers/User.php on line 70
+[04-Feb-2019 09:11:18 Etc/GMT] PHP Fatal error:  Call to undefined method User_model::ajaxuserlist() in /home/newworld/public_html/casestudy/application/controllers/User.php on line 66
+[04-Feb-2019 09:12:24 Etc/GMT] PHP Fatal error:  Call to a member function result() on a non-object in /home/newworld/public_html/casestudy/application/controllers/User.php on line 70
+[05-Feb-2019 12:11:37 Etc/GMT] PHP Fatal error:  Call to a member function center() on a non-object in /home/newworld/public_html/casestudy/application/controllers/Home.php on line 31
+[05-Feb-2019 12:21:04 Etc/GMT] PHP Fatal error:  Call to undefined method Home_model::tcase() in /home/newworld/public_html/casestudy/application/controllers/Home.php on line 39
+[05-Feb-2019 12:21:05 Etc/GMT] PHP Fatal error:  Call to undefined method Home_model::tcase() in /home/newworld/public_html/casestudy/application/controllers/Home.php on line 39
+[05-Feb-2019 12:24:48 Etc/GMT] PHP Fatal error:  Unsupported operand types in /home/newworld/public_html/casestudy/application/models/Home_model.php on line 43
+[05-Feb-2019 12:24:50 Etc/GMT] PHP Fatal error:  Unsupported operand types in /home/newworld/public_html/casestudy/application/models/Home_model.php on line 43
+[07-Feb-2019 07:05:50 Etc/GMT] PHP Parse error:  syntax error, unexpected 'center' (T_STRING), expecting ']' in /home/newworld/public_html/casestudy/application/views/case/list.php on line 124
+[07-Feb-2019 07:05:52 Etc/GMT] PHP Parse error:  syntax error, unexpected 'center' (T_STRING), expecting ']' in /home/newworld/public_html/casestudy/application/views/case/list.php on line 124
+[07-Feb-2019 08:07:50 Etc/GMT] PHP Fatal error:  Unsupported operand types in /home/newworld/public_html/casestudy/application/models/Home_model.php on line 43
+[07-Feb-2019 08:07:52 Etc/GMT] PHP Fatal error:  Unsupported operand types in /home/newworld/public_html/casestudy/application/models/Home_model.php on line 43
+[07-Feb-2019 08:10:41 Etc/GMT] PHP Fatal error:  Call to undefined function data() in /home/newworld/public_html/casestudy/application/controllers/Home.php on line 32
+[07-Feb-2019 08:10:47 Etc/GMT] PHP Fatal error:  Call to undefined function data() in /home/newworld/public_html/casestudy/application/controllers/Home.php on line 32
+[11-Feb-2019 07:41:23 Etc/GMT] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/newworld/public_html/casestudy2/application/models/Home_model.php on line 35
+[11-Feb-2019 10:04:56 Etc/GMT] PHP Parse error:  syntax error, unexpected '{' in /home/newworld/public_html/casestudy2/application/views/case/list.php on line 177
+[11-Feb-2019 10:05:09 Etc/GMT] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/newworld/public_html/casestudy2/application/views/case/list.php on line 177
+[11-Feb-2019 11:18:36 Etc/GMT] PHP Parse error:  syntax error, unexpected '>' in /home/newworld/public_html/casestudy2/application/views/report/single_zone_report.php on line 155
+[11-Feb-2019 11:29:16 Etc/GMT] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/newworld/public_html/casestudy2/application/views/report/single_zone_report.php on line 149
+[11-Feb-2019 11:29:28 Etc/GMT] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/newworld/public_html/casestudy2/application/views/report/single_zone_report.php on line 149
+[11-Feb-2019 11:47:46 Etc/GMT] PHP Parse error:  syntax error, unexpected '$fromm' (T_VARIABLE), expecting ',' or ';' in /home/newworld/public_html/casestudy2/application/views/report/single_center_report.php on line 158
